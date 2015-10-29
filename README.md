@@ -3,7 +3,8 @@
 ## How to use?
 
 ```scala
-resolvers += "janzhou-mvn-repo" at "https://raw.githubusercontent.com/janzhou/mvn-repo/master"
+resolvers += "janzhou-github-mvn-repo" at "https://raw.githubusercontent.com/janzhou/mvn-repo/master"
+resolvers += "janzhou-bitbucket-mvn-repo" at "https://bitbucket.org/janzhou/mvn-repo/raw/master"
 libraryDependencies += "org.janzhou" %% "native" % "0.1.0"
 ```
 
