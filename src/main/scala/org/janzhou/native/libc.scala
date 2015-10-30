@@ -6,6 +6,7 @@ trait libc extends Library {
   def open(path:String, flag:Int):Int
   def ioctl(fd:Int, request:Int, args:Array[_]):Int
   def close(fd:Int):Unit
+  def lseek(fildes:Int, offset:Long, whence:Int):Long
 }
 
 object libc {
@@ -23,4 +24,5 @@ object libc {
   val O_RDWR       =   2
   val O_CREAT      = 100
   val IOCTL_TRIM   = 0x1277
+  val SEEK_END     =   2
 }
