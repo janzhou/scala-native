@@ -8,6 +8,10 @@ resolvers += "janzhou-bitbucket-mvn-repo" at "https://bitbucket.org/janzhou/mvn-
 libraryDependencies += "org.janzhou" %% "native" % "0.1.0"
 ```
 
+## Dependency
+
+- [NVM Library](http://pmem.io/nvml/)
+
 ## Contribute
 
 - https://github.com/janzhou/scala-native
