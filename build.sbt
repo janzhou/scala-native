@@ -1,9 +1,9 @@
 name := "native"
-version := "0.1.1-SNAPSHOT"
+version := "0.1.1"
 scalaVersion := "2.11.7"
 organization := "org.janzhou"
 
-crossScalaVersions := Seq("2.9.3", "2.10.6", "2.11.7")
+crossScalaVersions := Seq("2.10.6", "2.11.7")
 
 libraryDependencies += "net.java.dev.jna" % "jna" % "4.0.0"
 
