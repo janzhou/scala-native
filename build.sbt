@@ -1,5 +1,5 @@
 name := "native"
-version := "0.1.1"
+version := "0.1.2-SNAPSHOT"
 scalaVersion := "2.11.7"
 organization := "org.janzhou"
 
