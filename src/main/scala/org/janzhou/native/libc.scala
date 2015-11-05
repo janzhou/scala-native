@@ -18,6 +18,8 @@ object libc {
     _libc
   }
 
+  def call:libc = run()
+
   val O_ACCMODE    =   3
   val O_RDONLY     =   0
   val O_WRONLY     =   1

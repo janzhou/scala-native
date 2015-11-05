@@ -83,4 +83,6 @@ object libpmem {
     }
     _libpmem
   }
+
+  def call:libpmem = run()
 }
