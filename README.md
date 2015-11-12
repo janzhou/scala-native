@@ -18,7 +18,7 @@ Add the library by using the following line:
 
     libraryDependencies += "org.janzhou" %% "native" % "version"
 
-**Replace the version number with [a proper tag name in the repository](https://janzhou.org/cgit/scala-native/refs/)** 
+**Replace the version number with [a proper tag name in the repository](https://janzhou.org/cgit/scala-native/refs/tags/)** 
 
 ## Dependency
 
