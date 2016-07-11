@@ -4,9 +4,15 @@ import com.sun.jna._
 
 trait libc extends Library {
   def open(path:String, flag:Int):Int
-  def ioctl(fd:Int, request:Int, args:Array[_]):Int
   def close(fd:Int):Unit
   def lseek(fildes:Int, offset:Long, whence:Int):Long
+
+  def ioctl(fd:Int, request:Int):Int
+  def ioctl(fd:Int, request:Int, args:Array[_]):Int
+  def ioctl(fd:Int, request:Int, ptr:Pointer):Int
+  def malloc(size:Int):Pointer
+  def calloc(nitems:Int, size:Int):Pointer
+  def free(ptr:Pointer):Unit
 }
 
 object libc {
