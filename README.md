@@ -1,4 +1,4 @@
-# Scala Native Api for Linux
+# Scala Native Access
 
 ## How to use?
 
