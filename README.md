@@ -6,7 +6,9 @@
 
 You can add github resolver by add this line to ``build.sbt``:
 
-    resolvers += "janzhou-github-mvn-repo" at "https://raw.githubusercontent.com/janzhou/mvn-repo/master"
+```scala
+resolvers += "Jian Zhou Release" at "https://raw.githubusercontent.com/janzhou/mvn-repo/release"
+```
 
 ### Add library
 
@@ -14,7 +16,7 @@ Add the library by using the following line:
 
     libraryDependencies += "org.janzhou" %% "native" % "version"
 
-**Replace the version number with [a proper tag name in the repository](https://github.com/janzhou/scala-native/releases)** 
+**Replace the version number with [a proper tag name in the repository](https://github.com/janzhou/scala-native/releases)**
 
 ### Libc library
 
